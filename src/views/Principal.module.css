@@ -1,0 +1,23 @@
+section {
+    background-image: url('../assets/backgrounds/dinoteca-backgroun.jpeg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 194.5vh;
+    height: 105.4vh;
+}
+
+h1 {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 135px;
+}
+
+.card {
+    width: 455px;
+    height: 237px;
+}
+
+.eras {
+    display: flex;
+}
