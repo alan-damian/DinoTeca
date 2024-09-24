@@ -1,6 +1,4 @@
 section {
-    background-image: url('../assets/backgrounds/dinoteca-backgroun.jpeg');
-    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;    

@@ -12,18 +12,10 @@ const Principal = ()=>{
             <h1>Eones de la tierra</h1>
 
             <div className={styles.eras}>
-            <div className={styles.card}>
-                <img src={EonProterozoico} className="card-img" alt="Proterozoico" width="350px"></img>
-            </div>
-            <div className={styles.card}>
-                <img src={EonPaleozoico} className="card-img" alt="Paleozoico" width="350px"></img>
-            </div>
-            <div className={styles.card}>
-                <img src={EonMesozoico} className="card-img" alt="Mesozoico" width="350px"></img>
-            </div>
-            <div className={styles.card}>
-                <img src={EonCenozoico} className="card-img" alt="Cenozoico" width="350px"></img>
-            </div>
+                <article className={styles.proto}></article>
+                <article className={styles.paleo}></article>
+                <article className={styles.meso}></article>
+                <article className={styles.ceno}></article>
             </div>
         
         </section>
