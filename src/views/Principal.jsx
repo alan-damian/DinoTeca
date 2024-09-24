@@ -5,7 +5,7 @@ const Principal = ()=>{
     return(
         <section className={styles}>
         
-            <h1>Eones de la tierra</h1>
+            <h1 className={styles.titulo}>Eones de la tierra</h1>
 
             <div className={styles.eras}>
                 <article className={styles.prote}><h2 className={styles.NombreEra}>PROTEROZOICO</h2></article>

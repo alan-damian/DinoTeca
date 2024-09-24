@@ -5,9 +5,10 @@ section {
     width: 100%;
 }
 
-h1 {
-    font-family: 'Lucida Sans Unicode';
+.titulo {
+    font-family: "Protest Guerrilla", sans-serif;
     font-size: 135px;
+    -webkit-text-stroke: 0.5px #ffffff7a;
 }
 
 .card {
@@ -23,6 +24,8 @@ h1 {
 /* //////////////////////////////////////////////////////////////HOVER SOBRE ERAS */
 .NombreEra {
     display: none;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 35px;
 }
 
 .prote {
@@ -42,6 +45,7 @@ h1 {
         display: block;
         border:1px solid white;
         border-radius: 5px;
+        background-color: rgba(0, 255, 255, 0.258);
     }
 }
 
@@ -62,6 +66,7 @@ h1 {
         display: block;
         border:1px solid white;
         border-radius: 5px;
+        background-color: rgba(0, 255, 255, 0.258);
     }
 }
 
@@ -81,6 +86,7 @@ h1 {
         display: block;
         border:1px solid white;
         border-radius: 5px;
+        background-color: rgba(0, 255, 255, 0.258);
     }
 }
 
@@ -102,6 +108,7 @@ h1 {
         display: block;
         border:1px solid white;
         border-radius: 5px;
+        background-color: rgba(0, 255, 255, 0.258);
     }
 }
 
