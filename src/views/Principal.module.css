@@ -18,4 +18,90 @@ h1 {
 .eras {
     display: flex;
     width: 1080px;
+    height: 237px;
 }
+/* //////////////////////////////////////////////////////////////HOVER SOBRE ERAS */
+.NombreEra {
+    display: none;
+}
+
+.prote {
+    background-image: url('../assets/backgrounds/Eón-Proterozoico.jpg');
+    width: 400px;
+    transition: 0.5s;
+    border-radius: 5px;
+
+}
+.prote:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 870px;
+    transition: 1s;
+    .NombreEra {
+        display: block;
+        border:1px solid white;
+        border-radius: 5px;
+    }
+}
+
+.paleo {
+    background-image: url('../assets/backgrounds/Eón-Paleozoico.jpg');
+    width: 400px;
+    transition: 0.5s;
+    border-radius: 5px;
+
+}
+.paleo:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 870px;
+    transition: 1s;
+    .NombreEra {
+        display: block;
+        border:1px solid white;
+        border-radius: 5px;
+    }
+}
+
+.meso {
+    background-image: url('../assets/backgrounds/Eón-Mesozoico.jpg');
+    width: 400px;
+    transition: 0.5s; 
+    border-radius: 5px;
+}
+.meso:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 870px;
+    transition: 1s;
+    .NombreEra {
+        display: block;
+        border:1px solid white;
+        border-radius: 5px;
+    }
+}
+
+.ceno {
+    background-image: url('../assets/backgrounds/Eón-Cenozoico.jpg');
+    width: 400px;
+    transition: 0.5s;
+    border-radius: 5px;
+
+}
+
+.ceno:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 870px;
+    transition: 1s;
+    .NombreEra {
+        display: block;
+        border:1px solid white;
+        border-radius: 5px;
+    }
+}
+

@@ -1,8 +1,4 @@
 import styles from './Principal.module.css'
-import EonProterozoico from '../assets/backgrounds/Eón-Proterozoico.jpg'
-import EonPaleozoico from '../assets/backgrounds/Eón-Paleozoico.jpg'
-import EonMesozoico from '../assets/backgrounds/Eón-Mesozoico.jpg'
-import EonCenozoico from '../assets/backgrounds/Eón-Cenozoico.jpg'
 
 
 const Principal = ()=>{
@@ -12,10 +8,10 @@ const Principal = ()=>{
             <h1>Eones de la tierra</h1>
 
             <div className={styles.eras}>
-                <article className={styles.proto}></article>
-                <article className={styles.paleo}></article>
-                <article className={styles.meso}></article>
-                <article className={styles.ceno}></article>
+                <article className={styles.prote}><h2 className={styles.NombreEra}>PROTEROZOICO</h2></article>
+                <article className={styles.paleo}><h2 className={styles.NombreEra}>PALEOZOICO</h2></article>
+                <article className={styles.meso}><h2 className={styles.NombreEra}>MESOZOICO</h2></article>
+                <article className={styles.ceno}><h2 className={styles.NombreEra}>CENOZOICO</h2></article>
             </div>
         
         </section>
