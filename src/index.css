@@ -14,9 +14,7 @@
 }
 
 body {
-  margin-top: -43px;
-  margin-left: 0px;
   display: flex;
   place-items: center;
-  width: 161vh;
+  width: 100%;
 }
