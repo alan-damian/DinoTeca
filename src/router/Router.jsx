@@ -10,10 +10,10 @@ const Router = ()=>{
         <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path="/principal" element={<Principal />} />
-          <Route path="/descubre" element={<Descubre />} />
-          <Route path="/contacto" element={<Contacto />} />
-          <Route path="/info" element={<Info />} />
+          <Route path="/DinoTeca" element={<Principal />} />
+          <Route path="/DinoTeca/descubre" element={<Descubre />} />
+          <Route path="/DinoTeca/contacto" element={<Contacto />} />
+          <Route path="/DinoTeca/info" element={<Info />} />
         </Routes>
         </BrowserRouter> 
     );
