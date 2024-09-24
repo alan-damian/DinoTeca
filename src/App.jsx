@@ -1,13 +1,11 @@
 import './App.css'
-import Principal from './views/Principal';
-import NavBar from './components/NavBar';
+import Router from './router/Router'
 
 function App() {
 
   return (
     <>
-      <NavBar/>
-      <Principal/>
+      <Router/>
 
     </>
   )
